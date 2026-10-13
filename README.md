@@ -17,3 +17,7 @@ npm run preview
 ```
 
 The project is configured for the GitHub Pages path `/candy-spark/`.
+
+## GitHub Pages
+
+The workflow in `.github/workflows/deploy.yml` builds and deploys the site when changes reach `main`. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**.
